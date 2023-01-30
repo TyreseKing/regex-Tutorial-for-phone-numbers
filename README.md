@@ -91,3 +91,13 @@ In the above expression we have the following group constructs
 If we dispose of the inner logic, the regex may be expressed this way: (+1) (3)-(3)-(4). (+1 999-777-4444)That is a lot simpler to examine, and corresponds to how we recognize phone numbers.
 
 ---
+
+## Bracket Expressions
+
+The last vital piece to our Regex is bracket expressions. There are 2 within our code:
+```
+[ -], and [ -]
+```
+A bracket expression represents a space or a dash. The character may be some thing designated inside the brackets. So, as an example, in [ -], this can be matched by way of any spaces OR dashes inbetween the digits of the phone number. (ex: 999-777-4444 OR 999 777 4444)
+
+---
