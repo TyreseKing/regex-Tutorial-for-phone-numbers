@@ -142,3 +142,6 @@ single digit [0-9]
 ```
 
 ---
+
+## Author
+Im a GTech bootcamp attendee with a passion to learn and you can check out my github at https://github.com/TyreseKing
