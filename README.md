@@ -44,3 +44,23 @@ The fourth Group represents the last four digits of the phone number.
 
 ---
 
+## Quantifiers
+
+Quantifiers indicate numbers of characters or expressions to match.
+I am want to match the three digits in the areacode, the three middle digits, and the ending for digits.
+Here is an example of how to 'match' a 10 digit number '9997774444':
+
+```
+/\d{10}/
+```
+
+They might have dashes in the number like so, '999-777-4444'.
+The following syntax supports this.
+
+```
+/\d{3}-?\d{3}-?\d{4}/
+```
+
+The ? means the dashes are 'optional'. So IF they put the dashes within the phone number or not, it will still match.
+
+---
