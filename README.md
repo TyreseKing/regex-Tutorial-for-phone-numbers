@@ -118,3 +118,16 @@ If you don’t want your grouping and alternation to interfere with other number
 ```
 
 ---
+## Flags
+
+The 'g' at the end of the following expressions represents 'global'.
+```
+/(?:(\+1[ -])\(?(?<areacode>\d{3})\)[ -]?(\d{3})[ -]?(\d{4})/g
+```
+
+The 'gm' at the end of the following expression represents 'global, multiple'. Which searches multilple lines.
+```
+/(?:(\+1[ -])\(?(?<areacode>\d{3})\)[ -]?(\d{3})[ -]?(\d{4})/gm
+```
+
+---
