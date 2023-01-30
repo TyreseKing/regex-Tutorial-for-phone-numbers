@@ -101,3 +101,12 @@ The last vital piece to our Regex is bracket expressions. There are 2 within our
 A bracket expression represents a space or a dash. The character may be some thing designated inside the brackets. So, as an example, in [ -], this can be matched by way of any spaces OR dashes inbetween the digits of the phone number. (ex: 999-777-4444 OR 999 777 4444)
 
 ---
+## Character Classes
+
+Regex has unique instructions that suit different types of characters.
+
+In our expression, \d is used to suit any DIGIT character.
+
+The backslash is vital with the intention to differentiate the digit elegance from a definite letter d.
+
+---
