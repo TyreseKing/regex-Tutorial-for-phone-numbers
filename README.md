@@ -131,3 +131,14 @@ The 'gm' at the end of the following expression represents 'global, multiple'. W
 ```
 
 ---
+## Character Escapes
+
+```
+\d
+```
+stands for 
+```
+single digit [0-9]
+```
+
+---
