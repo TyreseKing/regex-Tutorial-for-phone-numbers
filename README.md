@@ -64,3 +64,30 @@ The following syntax supports this.
 The ? means the dashes are 'optional'. So IF they put the dashes within the phone number or not, it will still match.
 
 ---
+## Grouping Constructs
+
+Grouping is carried out with ( ) in regex.
+
+Anything within the parentheses is taken as a single institution, which permits all of the data internal to be handled as a single unit.
+
+Study the complete expression, paying unique interest to the parentheses.
+
+```
+/(?:(\+1[ -])\(?(?<areacode>\d{3})\)[ -]?(\d{3})[ -]?(\d{4})/gm
+```
+
+In the above expression we have the following group constructs
+
+```
+(\+1[ -]) 
+
+(?(?<areacode>\d{3})\) 
+
+(\d{3})
+
+(\d{4})
+```
+
+If we dispose of the inner logic, the regex may be expressed this way: (+1) (3)-(3)-(4). (+1 999-777-4444)That is a lot simpler to examine, and corresponds to how we recognize phone numbers.
+
+---
