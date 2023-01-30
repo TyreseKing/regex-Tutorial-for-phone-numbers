@@ -110,3 +110,11 @@ In our expression, \d is used to suit any DIGIT character.
 The backslash is vital with the intention to differentiate the digit elegance from a definite letter d.
 
 ---
+## The OR Operator
+
+If you don’t want your grouping and alternation to interfere with other numbered groups in your expression, each “or” group must be prefixed with ?: – like so:
+```
+(?:(\+1[ -])
+```
+
+---
